@@ -1,4 +1,4 @@
 #server Env
 
-export SERVERHOST = "localhost"
-export SERVERPORT = 8080
+export SERVERHOST="localhost"
+export SERVERPORT=8080
