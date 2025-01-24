@@ -12,8 +12,9 @@ type HttpServer struct {
 
 func NewHttpServer(host string , port int) *HttpServer {
 	return &HttpServer{
-		server : http.Server{
-			Addr : fmt.Sprintf("%s:%d" , host , port)},
+		server: http.Server{
+			Addr: fmt.Sprintf("%s:%d", host , port),
+		},
 		mux: http.NewServeMux(),
 	}
 }
