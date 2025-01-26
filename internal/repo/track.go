@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/blockloop/scan"
-	"github.com/learngofarsi/go-basics-project/api"
+	"github.com/Trodyy/go-basics-project/api"
 )
 
 const (
